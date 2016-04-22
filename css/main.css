@@ -23,10 +23,6 @@ html {
   width: 90%;
 }
 
-.time {
-  display: none;
-}
-
 .title {
   width: 100%;
 }
@@ -118,7 +114,7 @@ html {
   0% { transform: translate(-600px, 0px) rotate(0deg);
       }
 
-  100% { transform: translate(0px, 0px) rotate(200deg);
+  100% { transform: translate(0px, 0px) rotate(210deg);
       }
 
 }
@@ -136,38 +132,57 @@ html {
   0% { transform: translate(-600px, 0px) rotate(0deg);
       }
 
-  100% { transform: translate(0px, 0px) rotate(200deg);
+  100% { transform: translate(0px, 0px) rotate(210deg);
       }
 
 }
+
 .sch {
-  animation: slideup 1s  ease forwards;
   transform: translate(0px, 300px);
+}
+
+.js-time-animate .sch {
+  animation: slideup 1s  ease forwards;
 }
 
 .bus {
-  animation: slideup 1s  ease 0.1s forwards;
   transform: translate(0px, 300px);
+}
+
+.js-time-animate .bus {
+  animation: slideup 1s  ease 0.1s forwards;
 }
 
 .cal {
-  animation: slideup 1s  ease 0.2s forwards;
   transform: translate(0px, 300px);
+}
+
+.js-time-animate .cal {
+  animation: slideup 1s  ease 0.2s forwards;
 }
 
 .coo {
-  animation: slideup 1s  ease 0.3s forwards;
   transform: translate(0px, 300px);
+}
+
+.js-time-animate .coo {
+  animation: slideup 1s  ease 0.3s forwards;
 }
 
 .sto {
-  animation: slideup 1s  ease 0.4s forwards;
   transform: translate(0px, 300px);
 }
 
+.js-time-animate .sto {
+  animation: slideup 1s  ease 0.4s forwards;
+}
+
 .iph {
-  animation: slideup 1s  ease 0.5s forwards;
   transform: translate(0px, 300px);
+}
+
+.js-time-animate .iph {
+  animation: slideup 1s  ease 0.5s forwards;
 }
 
 @keyframes slideup {
@@ -177,37 +192,38 @@ html {
 }
 
 .b1 {
-  animation: falldown 1.2s  ease;
+  animation: falldown 1.2s  ease 0.4s forwards;
+  transform: translate(0px, -1000px);
 }
 
 .b2 {
-  animation: falldown 1.2s  ease;
-  animation-delay: 0.1s;
+  animation: falldown 1.2s  ease 0.4s forwards;
+  transform: translate(0px, -1000px);
 }
 
 .b3 {
-  animation: falldown 1.2s  ease;
-  animation-delay: 0.2s;
+  animation: falldown 1.2s  ease 0.2s forwards;
+  transform: translate(0px, -1000px);
 }
 
 .b4 {
-  animation: falldown 1.2s  ease;
-  animation-delay: 0.3s;
+  animation: falldown 1.2s  ease 0.3s forwards;
+  transform: translate(0px, -1000px);
 }
 
 .b5 {
-  animation: falldown 1.2s  ease;
-  animation-delay: 0.5s;
+  animation: falldown 1.2s  ease 0.1s forwards;
+  transform: translate(0px, -1000px);
 }
 
 .b6 {
-  animation: falldown 1.2s  ease;
-  animation-delay: 0.3s;
+  animation: falldown 1.2s  ease 0.3s forwards;
+  transform: translate(0px, -1000px);
 }
 
 .b7 {
-  animation: falldown 1.2s  ease;
-  animation-delay: 0.5s;
+  animation: falldown 1.2s ease 0.5s forwards;
+  transform: translate(0px, -1000px);
 }
 
 @keyframes falldown {
@@ -242,15 +258,16 @@ html {
   100% { scale: 1;}
 }
 
-.pte {
-  display: block;
-  width: 256px;
+.time {
   margin: 0 auto;
-  opacity: 0;
-  transition: all 200ms ease-in;
 }
 
-.js-pte-animate {
-  opacity: 1;
-  animation: appear 250ms linear;
+ {
+
+}
+
+.girl {
+  max-width: 20em;
+  margin: 0 auto;
+  display: block;
 }
