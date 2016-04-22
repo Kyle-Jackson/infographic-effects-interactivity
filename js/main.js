@@ -7,4 +7,4 @@ $time.waypoint(function() {
 
 $girl.waypoint(function() {
   $girl.addClass('js-girl-animate')
-}, { offset: '-3%' });
+}, { offset: '0%' });
