@@ -103,7 +103,7 @@ html {
 
 .cookie1 {
   animation: slideright1 2.5s ease forwards;
-  animation-delay: 1s;
+  animation-delay: 0.75s;
   transform: translate(-600px, 0px);
   transform: translate(-600px, 0px) rotate(0deg);
   transform-origin: 157.19px 187.43px;
@@ -121,7 +121,7 @@ html {
 
 .cookie2 {
   animation: slideright2 2.5s ease forwards;
-  animation-delay: 1s;
+  animation-delay: 0.75s;
   transform: translate(-600px, 0px);
   transform: translate(-600px, 0px) rotate(0deg);
   transform-origin: 285.86px 187.43px;
@@ -281,10 +281,6 @@ html {
 
 .time {
   margin: 0 auto;
-}
-
- {
-
 }
 
 .girl {
