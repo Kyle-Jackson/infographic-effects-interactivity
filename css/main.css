@@ -1,0 +1,226 @@
+@-moz-viewport { width: device-width; scale: 1; }
+@-ms-viewport { width: device-width; scale: 1; }
+@-o-viewport { width: device-width; scale: 1; }
+@-webkit-viewport { width: device-width; scale: 1; }
+@viewport { width: device-width; scale: 1; }
+
+html {
+  box-sizing: border-box;
+  -moz-text-size-adjust: 100%;
+  -ms-text-size-adjust: 100%;
+  -webkit-text-size-adjust: 100%;
+  text-size-adjust: 100%;
+
+  background-color: #efefef;
+  font-family: "Montserrat", sans-serif;
+}
+
+*, *::before, *::after {
+  box-sizing: inherit;
+}
+
+.mints {
+  width: 90%;
+}
+
+.time {
+  display: none;
+}
+
+.title {
+  width: 100%;
+}
+
+.graph {
+  width: 100%;
+}
+
+.st0 {
+  fill: #002f00;
+}
+
+.st1 {
+  fill: #fff;
+}
+
+.st2 {
+  fill: #b4cfb1;
+}
+
+.st3 {
+  fill: #231f20;
+}
+
+.st4 {
+  fill: none;
+  stroke: #23ff20;
+  stroke-width: 1.7;
+  stroke-miterlimit: 10;
+}
+
+.st5 {
+  fill: none;
+}
+
+.st6 {
+  fill: #b9a18c;
+}
+
+.st7 {
+  fill: #603913;
+}
+
+.st8 {
+  fill: #b59c86;
+}
+
+.st9 {
+  fill: #9e7f64;
+}
+
+.st10 {
+  fill: #3d1f00;
+}
+
+.st11 {
+  fill: #683e19;
+}
+
+.st12 {
+  fill: #937255;
+}
+
+.title {
+  animation: down 1s  ease;
+
+}
+
+@keyframes down {
+
+  0% { transform: translate(0, -200px); }
+  100% { transform: translate(0px, 0px); }
+}
+
+.cookie1 {
+  animation: slideright1 1s  ease;
+  animation-delay: 1s;
+
+}
+
+@keyframes slideright1 {
+
+  0% { transform: translate(-300, 0px); }
+  100% { transform: translate(0px, 0px); }
+}
+
+.cookie2 {
+  animation: slideright2 1s  ease;
+  animation-delay: 1s;
+}
+
+@keyframes slideright2 {
+
+  0% { transform: translate(-300, 0px); }
+  100% { transform: translate(0px, 0px); }
+}
+
+.sch {
+  animation: slideup 1s  ease;
+}
+
+.bus {
+  animation: slideup 1s  ease;
+  animation-delay: 0.1s;
+}
+
+.cal {
+  animation: slideup 1s  ease;
+  animation-delay: 0.2s;
+}
+
+.coo {
+  animation: slideup 1s  ease;
+  animation-delay: 0.3s;
+}
+
+.sto {
+  animation: slideup 1s  ease;
+  animation-delay: 0.4s;
+}
+
+.iph {
+  animation: slideup 1s  ease;
+  animation-delay: 0.5s;
+}
+
+@keyframes slideup {
+
+  0% { transform: translate(0px, 300px); }
+  100% { transform: translate(0px, 0px); }
+}
+
+.b1 {
+  animation: falldown 1.2s  ease;
+}
+
+.b2 {
+  animation: falldown 1.2s  ease;
+  animation-delay: 0.1s;
+}
+
+.b3 {
+  animation: falldown 1.2s  ease;
+  animation-delay: 0.2s;
+}
+
+.b4 {
+  animation: falldown 1.2s  ease;
+  animation-delay: 0.3s;
+}
+
+.b5 {
+  animation: falldown 1.2s  ease;
+  animation-delay: 0.5s;
+}
+
+.b6 {
+  animation: falldown 1.2s  ease;
+  animation-delay: 0.3s;
+}
+
+.b7 {
+  animation: falldown 1.2s  ease;
+  animation-delay: 0.5s;
+}
+
+@keyframes falldown {
+
+  0% { transform: translate(0px, -1000px); }
+  100% { transform: translate(0px, 0px); }
+}
+
+.mints {
+  animation: slideright 1s ease;
+}
+
+@keyframes slideright {
+
+  0% { transform: translate(-300px, 0px); }
+  100% { transform: translate(0px, 0px); }
+}
+
+.number-of-cookies {
+  animation: slideleft 1s ease;
+}
+
+@keyframes slideleft {
+
+  0% { transform: translate(300px, 0px); }
+  100% { transform: translate(0px, 0px); }
+}
+
+@keyframes grow {
+
+  0% { scale 0%; }
+  100% { scale 100%;}
+}
