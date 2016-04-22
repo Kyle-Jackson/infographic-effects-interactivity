@@ -95,6 +95,10 @@ html {
 
 }
 
+.title {
+  overflow: visible;
+}
+
 @keyframes down {
 
   0% { transform: translate(0, -200px); }
@@ -102,55 +106,68 @@ html {
 }
 
 .cookie1 {
-  animation: slideright1 1s  ease;
+  animation: slideright1 2.5s ease forwards;
   animation-delay: 1s;
-
+  transform: translate(-600px, 0px);
+  transform: translate(-600px, 0px) rotate(0deg);
+  transform-origin: 157.19px 187.43px;
 }
 
 @keyframes slideright1 {
 
-  0% { transform: translate(-300, 0px); }
-  100% { transform: translate(0px, 0px); }
+  0% { transform: translate(-600px, 0px) rotate(0deg);
+      }
+
+  100% { transform: translate(0px, 0px) rotate(200deg);
+      }
+
 }
 
 .cookie2 {
-  animation: slideright2 1s  ease;
+  animation: slideright2 2.5s ease forwards;
   animation-delay: 1s;
+  transform: translate(-600px, 0px);
+  transform: translate(-600px, 0px) rotate(0deg);
+  transform-origin: 285.86px 187.43px;
 }
 
 @keyframes slideright2 {
 
-  0% { transform: translate(-300, 0px); }
-  100% { transform: translate(0px, 0px); }
-}
+  0% { transform: translate(-600px, 0px) rotate(0deg);
+      }
 
+  100% { transform: translate(0px, 0px) rotate(200deg);
+      }
+
+}
 .sch {
-  animation: slideup 1s  ease;
+  animation: slideup 1s  ease forwards;
+  transform: translate(0px, 300px);
 }
 
 .bus {
-  animation: slideup 1s  ease;
-  animation-delay: 0.1s;
+  animation: slideup 1s  ease 0.1s forwards;
+  transform: translate(0px, 300px);
 }
 
 .cal {
-  animation: slideup 1s  ease;
-  animation-delay: 0.2s;
+  animation: slideup 1s  ease 0.2s forwards;
+  transform: translate(0px, 300px);
 }
 
 .coo {
-  animation: slideup 1s  ease;
-  animation-delay: 0.3s;
+  animation: slideup 1s  ease 0.3s forwards;
+  transform: translate(0px, 300px);
 }
 
 .sto {
-  animation: slideup 1s  ease;
-  animation-delay: 0.4s;
+  animation: slideup 1s  ease 0.4s forwards;
+  transform: translate(0px, 300px);
 }
 
 .iph {
-  animation: slideup 1s  ease;
-  animation-delay: 0.5s;
+  animation: slideup 1s  ease 0.5s forwards;
+  transform: translate(0px, 300px);
 }
 
 @keyframes slideup {
@@ -221,6 +238,19 @@ html {
 
 @keyframes grow {
 
-  0% { scale 0%; }
-  100% { scale 100%;}
+  0% { scale: 0; }
+  100% { scale: 1;}
+}
+
+.pte {
+  display: block;
+  width: 256px;
+  margin: 0 auto;
+  opacity: 0;
+  transition: all 200ms ease-in;
+}
+
+.js-pte-animate {
+  opacity: 1;
+  animation: appear 250ms linear;
 }
