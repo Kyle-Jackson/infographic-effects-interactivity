@@ -192,38 +192,59 @@ html {
 }
 
 .b1 {
-  animation: falldown 1.2s  ease 0.4s forwards;
   transform: translate(0px, -1000px);
+}
+
+.js-girl-animate .b1 {
+  animation: falldown 1.2s  ease 0.4s forwards;
 }
 
 .b2 {
-  animation: falldown 1.2s  ease 0.4s forwards;
   transform: translate(0px, -1000px);
+}
+
+.js-girl-animate .b2 {
+  animation: falldown 1.2s  ease 0.4s forwards;
 }
 
 .b3 {
-  animation: falldown 1.2s  ease 0.2s forwards;
   transform: translate(0px, -1000px);
+}
+
+.js-girl-animate .b3 {
+  animation: falldown 1.2s  ease 0.2s forwards;
 }
 
 .b4 {
-  animation: falldown 1.2s  ease 0.3s forwards;
   transform: translate(0px, -1000px);
+}
+
+.js-girl-animate .b4 {
+  animation: falldown 1.2s  ease 0.3s forwards;
 }
 
 .b5 {
-  animation: falldown 1.2s  ease 0.1s forwards;
   transform: translate(0px, -1000px);
+}
+
+.js-girl-animate .b5 {
+  animation: falldown 1.2s  ease 0.1s forwards;
 }
 
 .b6 {
-  animation: falldown 1.2s  ease 0.3s forwards;
   transform: translate(0px, -1000px);
 }
 
+.js-girl-animate .b6 {
+  animation: falldown 1.2s  ease 0.3s forwards;
+}
+
 .b7 {
-  animation: falldown 1.2s ease 0.5s forwards;
   transform: translate(0px, -1000px);
+}
+
+.js-girl-animate .b7 {
+  animation: falldown 1.2s ease 0.5s forwards;
 }
 
 @keyframes falldown {
