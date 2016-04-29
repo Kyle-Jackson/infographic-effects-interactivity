@@ -98,6 +98,7 @@ html {
 @keyframes down {
 
   0% { transform: translate(0, -200px); }
+
   100% { transform: translate(0, 0); }
 }
 
@@ -111,11 +112,13 @@ html {
 
 @keyframes slideright1 {
 
-  0% { transform: translate(-900px, 0) rotate(0deg);
-      }
+  0% {
+    transform: translate(-900px, 0) rotate(0deg);
+  }
 
-  100% { transform: translate(0, 0) rotate(210deg);
-      }
+  100% {
+    transform: translate(0, 0) rotate(210deg);
+  }
 
 }
 
@@ -129,11 +132,13 @@ html {
 
 @keyframes slideright2 {
 
-  0% { transform: translate(-900px, 0) rotate(0deg);
-      }
+  0% {
+    transform: translate(-900px, 0) rotate(0deg);
+  }
 
-  100% { transform: translate(0, 0) rotate(210deg);
-      }
+  100% {
+    transform: translate(0, 0) rotate(210deg);
+  }
 
 }
 
@@ -188,6 +193,7 @@ html {
 @keyframes slideup {
 
   0% { transform: translate(0, 300px); }
+
   100% { transform: translate(0, 0); }
 }
 
@@ -250,6 +256,7 @@ html {
 @keyframes falldown {
 
   0% { transform: translate(0, -1000px); }
+
   100% { transform: translate(0, 0); }
 }
 
@@ -260,6 +267,7 @@ html {
 @keyframes slideright {
 
   0% { transform: translate(-300px, 0); }
+
   100% { transform: translate(0, 0); }
 }
 
@@ -270,6 +278,7 @@ html {
 @keyframes slideleft {
 
   0% { transform: translate(300px, 0); }
+
   100% { transform: translate(0, 0); }
 }
 
