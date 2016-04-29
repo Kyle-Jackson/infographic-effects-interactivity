@@ -98,23 +98,23 @@ html {
 @keyframes down {
 
   0% { transform: translate(0, -200px); }
-  100% { transform: translate(0px, 0px); }
+  100% { transform: translate(0, 0); }
 }
 
 .cookie1 {
   animation: slideright1 2.5s ease forwards;
   animation-delay: 0.75s;
-  transform: translate(-900px, 0px);
-  transform: translate(-900px, 0px) rotate(0deg);
+  transform: translate(-900px, 0);
+  transform: translate(-900px, 0) rotate(0deg);
   transform-origin: 157.19px 187.43px;
 }
 
 @keyframes slideright1 {
 
-  0% { transform: translate(-900px, 0px) rotate(0deg);
+  0% { transform: translate(-900px, 0) rotate(0deg);
       }
 
-  100% { transform: translate(0px, 0px) rotate(210deg);
+  100% { transform: translate(0, 0) rotate(210deg);
       }
 
 }
@@ -122,23 +122,23 @@ html {
 .cookie2 {
   animation: slideright2 2.5s ease forwards;
   animation-delay: 0.75s;
-  transform: translate(-900px, 0px);
-  transform: translate(-900px, 0px) rotate(0deg);
+  transform: translate(-900px, 0);
+  transform: translate(-900px, 0) rotate(0deg);
   transform-origin: 285.86px 187.43px;
 }
 
 @keyframes slideright2 {
 
-  0% { transform: translate(-900px, 0px) rotate(0deg);
+  0% { transform: translate(-900px, 0) rotate(0deg);
       }
 
-  100% { transform: translate(0px, 0px) rotate(210deg);
+  100% { transform: translate(0, 0) rotate(210deg);
       }
 
 }
 
 .sch {
-  transform: translate(0px, 300px);
+  transform: translate(0, 300px);
 }
 
 .js-time-animate .sch {
@@ -146,7 +146,7 @@ html {
 }
 
 .bus {
-  transform: translate(0px, 300px);
+  transform: translate(0, 300px);
 }
 
 .js-time-animate .bus {
@@ -154,7 +154,7 @@ html {
 }
 
 .cal {
-  transform: translate(0px, 300px);
+  transform: translate(0, 300px);
 }
 
 .js-time-animate .cal {
@@ -162,7 +162,7 @@ html {
 }
 
 .coo {
-  transform: translate(0px, 300px);
+  transform: translate(0, 300px);
 }
 
 .js-time-animate .coo {
@@ -170,7 +170,7 @@ html {
 }
 
 .sto {
-  transform: translate(0px, 300px);
+  transform: translate(0, 300px);
 }
 
 .js-time-animate .sto {
@@ -178,7 +178,7 @@ html {
 }
 
 .iph {
-  transform: translate(0px, 300px);
+  transform: translate(0, 300px);
 }
 
 .js-time-animate .iph {
@@ -187,12 +187,12 @@ html {
 
 @keyframes slideup {
 
-  0% { transform: translate(0px, 300px); }
-  100% { transform: translate(0px, 0px); }
+  0% { transform: translate(0, 300px); }
+  100% { transform: translate(0, 0); }
 }
 
 .b1 {
-  transform: translate(0px, -1000px);
+  transform: translate(0, -1000px);
 }
 
 .js-girl-animate .b1 {
@@ -200,7 +200,7 @@ html {
 }
 
 .b2 {
-  transform: translate(0px, -1000px);
+  transform: translate(0, -1000px);
 }
 
 .js-girl-animate .b2 {
@@ -208,7 +208,7 @@ html {
 }
 
 .b3 {
-  transform: translate(0px, -1000px);
+  transform: translate(0, -1000px);
 }
 
 .js-girl-animate .b3 {
@@ -216,7 +216,7 @@ html {
 }
 
 .b4 {
-  transform: translate(0px, -1000px);
+  transform: translate(0, -1000px);
 }
 
 .js-girl-animate .b4 {
@@ -224,7 +224,7 @@ html {
 }
 
 .b5 {
-  transform: translate(0px, -1000px);
+  transform: translate(0, -1000px);
 }
 
 .js-girl-animate .b5 {
@@ -232,7 +232,7 @@ html {
 }
 
 .b6 {
-  transform: translate(0px, -1000px);
+  transform: translate(0, -1000px);
 }
 
 .js-girl-animate .b6 {
@@ -240,7 +240,7 @@ html {
 }
 
 .b7 {
-  transform: translate(0px, -1000px);
+  transform: translate(0, -1000px);
 }
 
 .js-girl-animate .b7 {
@@ -249,8 +249,8 @@ html {
 
 @keyframes falldown {
 
-  0% { transform: translate(0px, -1000px); }
-  100% { transform: translate(0px, 0px); }
+  0% { transform: translate(0, -1000px); }
+  100% { transform: translate(0, 0); }
 }
 
 .mints {
@@ -259,8 +259,8 @@ html {
 
 @keyframes slideright {
 
-  0% { transform: translate(-300px, 0px); }
-  100% { transform: translate(0px, 0px); }
+  0% { transform: translate(-300px, 0); }
+  100% { transform: translate(0, 0); }
 }
 
 .number-of-cookies {
@@ -269,14 +269,8 @@ html {
 
 @keyframes slideleft {
 
-  0% { transform: translate(300px, 0px); }
-  100% { transform: translate(0px, 0px); }
-}
-
-@keyframes grow {
-
-  0% { scale: 0; }
-  100% { scale: 1;}
+  0% { transform: translate(300px, 0); }
+  100% { transform: translate(0, 0); }
 }
 
 .time {
@@ -287,4 +281,8 @@ html {
   max-width: 20em;
   margin: 0 auto;
   display: block;
+}
+
+h1 {
+  display: none;
 }
