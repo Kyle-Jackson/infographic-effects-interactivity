@@ -104,14 +104,14 @@ html {
 .cookie1 {
   animation: slideright1 2.5s ease forwards;
   animation-delay: 0.75s;
-  transform: translate(-600px, 0px);
-  transform: translate(-600px, 0px) rotate(0deg);
+  transform: translate(-900px, 0px);
+  transform: translate(-900px, 0px) rotate(0deg);
   transform-origin: 157.19px 187.43px;
 }
 
 @keyframes slideright1 {
 
-  0% { transform: translate(-600px, 0px) rotate(0deg);
+  0% { transform: translate(-900px, 0px) rotate(0deg);
       }
 
   100% { transform: translate(0px, 0px) rotate(210deg);
@@ -122,14 +122,14 @@ html {
 .cookie2 {
   animation: slideright2 2.5s ease forwards;
   animation-delay: 0.75s;
-  transform: translate(-600px, 0px);
-  transform: translate(-600px, 0px) rotate(0deg);
+  transform: translate(-900px, 0px);
+  transform: translate(-900px, 0px) rotate(0deg);
   transform-origin: 285.86px 187.43px;
 }
 
 @keyframes slideright2 {
 
-  0% { transform: translate(-600px, 0px) rotate(0deg);
+  0% { transform: translate(-900px, 0px) rotate(0deg);
       }
 
   100% { transform: translate(0px, 0px) rotate(210deg);
@@ -196,7 +196,7 @@ html {
 }
 
 .js-girl-animate .b1 {
-  animation: falldown 1.2s  ease 0.4s forwards;
+  animation: falldown 0.75s  ease 0.4s forwards;
 }
 
 .b2 {
@@ -204,7 +204,7 @@ html {
 }
 
 .js-girl-animate .b2 {
-  animation: falldown 1.2s  ease 0.4s forwards;
+  animation: falldown 0.75s  ease 0.4s forwards;
 }
 
 .b3 {
@@ -212,7 +212,7 @@ html {
 }
 
 .js-girl-animate .b3 {
-  animation: falldown 1.2s  ease 0.2s forwards;
+  animation: falldown 0.75s  ease 0.2s forwards;
 }
 
 .b4 {
@@ -220,7 +220,7 @@ html {
 }
 
 .js-girl-animate .b4 {
-  animation: falldown 1.2s  ease 0.3s forwards;
+  animation: falldown 0.75s  ease 0.3s forwards;
 }
 
 .b5 {
@@ -228,7 +228,7 @@ html {
 }
 
 .js-girl-animate .b5 {
-  animation: falldown 1.2s  ease 0.1s forwards;
+  animation: falldown 0.75s  ease 0.1s forwards;
 }
 
 .b6 {
@@ -236,7 +236,7 @@ html {
 }
 
 .js-girl-animate .b6 {
-  animation: falldown 1.2s  ease 0.3s forwards;
+  animation: falldown 0.75s  ease 0.3s forwards;
 }
 
 .b7 {
@@ -244,7 +244,7 @@ html {
 }
 
 .js-girl-animate .b7 {
-  animation: falldown 1.2s ease 0.5s forwards;
+  animation: falldown 0.75s ease 0.5s forwards;
 }
 
 @keyframes falldown {
