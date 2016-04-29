@@ -295,3 +295,19 @@ html {
 h1 {
   display: none;
 }
+
+.jensharpe {
+  transition: all 200ms linear;
+}
+
+.jensharpe:hover {
+  transform: rotate(-5deg);
+}
+
+.dc {
+  transition: all 200ms linear;
+}
+
+.dc:hover {
+  transform: rotate(-5deg);
+}
